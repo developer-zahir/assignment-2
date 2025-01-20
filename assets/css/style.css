@@ -70,8 +70,8 @@ header ul li:nth-child(4) a {
   justify-content: center;
   gap: 25px;
   text-align: center;
-  box-shadow: inset 0 0 8px #dddddd49;
-  border-radius: 10px;
+  box-shadow: inset 0 0 15px #e7dbdb56;
+  border-radius: 13px;
   padding: 45px 35px;
 }
 #curriculum-section .curriculum-item h3 {
