@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+html {
+  font-size: 16px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", serif;
+}
+
+:root {
+  --primary: #fea301;
+  --secondary: #01acfd;
+  --black: #111111;
+  --white: #f7f7f7;
+  --color-4: #05d4df;
+  --color-5: #5d58ef;
+  --color-6: #551a8b;
+  --color-7: #5d58f0;
+}
+.primary {
+  color: var(--primary);
+}
+.secondary {
+  color: var(--secondary);
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+.btn {
+  text-decoration: none;
+  padding: 9px 40px;
+  display: inline-block;
+  border-radius: 12px;
+}
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+}
+.btn-secondary {
+  background: var(--black);
+  color: var(--white);
+}
+.section-padding {
+  padding: 80px 20px;
+}
+.section-heading-gap {
+  padding-bottom: 75px;
+}
+.text-center {
+  text-align: center;
+}
+.hoverElement {
+  transition: 0.4s;
+}
+.hoverElement:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+/* Typography */
+.headding-1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  line-height: clamp(2.25rem, 5vw, 3.8125rem);
+}
+
+.headding-2 {
+  font-size: clamp(1.625rem, 4.5vw, 2.875rem);
+  font-weight: 700;
+  line-height: clamp(2rem, 4.5vw, 3.59375rem);
+}
+
+.headding-3 {
+  font-size: clamp(1.125rem, 4vw, 2rem);
+}
+
+.headding-4 {
+  font-size: clamp(1.0625rem, 3.5vw, 1.5rem);
+  font-weight: 700;
+  line-height: clamp(1.0625rem, 3.5vw, 1.9375rem);
+}
+.headding-5 {
+  font-size: clamp(0.8rem, 3.5vw, 1rem);
+  font-weight: 700;
+  line-height: clamp(1.2rem, 3.5vw, 1.5rem);
+}
+
+.paragraph-regular-bold {
+  font-size: clamp(1rem, 3.5vw, 1.25rem);
+  font-weight: 600;
+  line-height: clamp(1.5rem, 3.5vw, 1.875rem);
+}
+
+.paragraph-regular {
+  font-size: clamp(0.875rem, 3vw, 1.25rem);
+  font-weight: 400;
+  line-height: clamp(1.5rem, 3vw, 1.875rem);
+}
+
+.paragraph-sm {
+  font-size: clamp(0.6875rem, 2.5vw, 0.943125rem);
+  font-weight: 500;
+  line-height: clamp(1.125rem, 2.5vw, 1.76875rem);
+}
