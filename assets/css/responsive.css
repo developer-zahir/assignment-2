@@ -66,6 +66,9 @@
   #footer .col-1 img {
     width: 180px;
   }
+  #footer .col-2 ul a {
+    font-weight: 500;
+  }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */

@@ -225,7 +225,6 @@ header .desktop-header ul li:nth-child(4) a {
   color: var(--white);
   display: block;
   margin-bottom: 12px;
-  font-weight: 500;
 }
 
 #footer .col-3 ul {
