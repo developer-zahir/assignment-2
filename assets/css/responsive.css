@@ -20,9 +20,6 @@
   header .mobile-header {
     display: flex;
   }
-  #mobile-menu-toggle:checked + .mobile-menu {
-    transform: translateX(0%);
-  }
 
   /* Banner section  */
   #banner-section .row {
