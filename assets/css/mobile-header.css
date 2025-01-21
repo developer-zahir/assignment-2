@@ -15,7 +15,7 @@ header .mobile-header label > img {
   border-radius: 4px;
   padding: 5px;
   cursor: pointer;
-  width: 35px !important;
+  width: 38px !important;
 }
 header #mobile-menu-toggle:checked ~ img {
   border: 1px solid var(--secondary);
