@@ -7,15 +7,17 @@
     <link rel="shortcut icon" href="./assets/logo/header-mobile-logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/global-style.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/mobile-header.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body>
     <!-- header start  -->
     <header>
       <div class="container">
-        <div class="row">
+        <!-- desktop header -->
+        <div class="row desktop-header">
           <div class="col-1">
-            <a href="#"><img src="./assets/logo/header-logo.svg" alt="Header logo" /></a>
+            <a class="desktop-logo hoverElement" href="#"><img src="./assets/logo/header-logo.svg" alt="Header logo" /></a>
           </div>
           <div class="col-2">
             <nav>
@@ -29,6 +31,28 @@
           </div>
           <div class="col-3">
             <a href="#" class="btn btn-primary hoverElement paragraph-regular-bold">Contact</a>
+          </div>
+        </div>
+        <!-- mobile header -->
+        <div class="row mobile-header">
+          <div class="col-1">
+            <a class="mobile-logo hoverElement" href="#"><img src="./assets/logo/header-mobile-logo.svg" alt="Header logo" /></a>
+          </div>
+          <div class="col-2">
+            <label for="mobile-menu-toggle">
+              <img src="./assets/images/bars-3.svg" alt="mobile menu toggle icon" />
+              <input style="display: none" type="checkbox" id="mobile-menu-toggle" />
+              <nav class="mobile-menu">
+                <a class="mobile-logo" href="#"><img src="./assets/logo/header-logo.svg" alt="Header logo" /></a>
+                <ul>
+                  <li><a href="#" class="paragraph-regular hoverElement">Home</a></li>
+                  <li><a href="#" class="paragraph-regular hoverElement">About</a></li>
+                  <li><a href="#" class="paragraph-regular hoverElement">Facilities</a></li>
+                  <li><a href="#" class="paragraph-regular hoverElement">Admission</a></li>
+                </ul>
+                <a href="#" class="btn btn-primary hoverElement paragraph-regular-bold">Contact</a>
+              </nav>
+            </label>
           </div>
         </div>
       </div>
@@ -189,16 +213,16 @@
             <h4 class="headding-4">Keep In Touch</h4>
             <ul class="social-menu">
               <li>
-                <a href="#"><img src="./assets/social-icons/fb.png" alt="Facebook" /></a>
+                <a href="#" class="hoverElement"><img src="./assets/social-icons/fb.png" alt="Facebook" /></a>
               </li>
               <li>
-                <a href="#"><img src="./assets/social-icons/dribble.png" alt="dribble" /></a>
+                <a href="#" class="hoverElement"><img src="./assets/social-icons/dribble.png" alt="dribble" /></a>
               </li>
               <li>
-                <a href="#"><img src="./assets/social-icons/twitter.png" alt="twitter" /></a>
+                <a href="#" class="hoverElement"><img src="./assets/social-icons/twitter.png" alt="twitter" /></a>
               </li>
               <li>
-                <a href="#"><img src="./assets/social-icons/google+.png" alt="google+" /></a>
+                <a href="#" class="hoverElement"><img src="./assets/social-icons/google+.png" alt="google+" /></a>
               </li>
             </ul>
           </div>

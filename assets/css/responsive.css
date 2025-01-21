@@ -1,0 +1,92 @@
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  /* our stories section */
+  #our-stories-section .story-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 20px;
+  }
+  .section-heading-gap {
+    padding-bottom: 60px;
+  }
+
+  header .desktop-header {
+    display: none;
+  }
+  header .mobile-header {
+    display: flex;
+  }
+  #mobile-menu-toggle:checked + .mobile-menu {
+    transform: translateX(0%);
+  }
+
+  /* Banner section  */
+  #banner-section .row {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 30px;
+  }
+  #banner-section .col-1 .content-wrapper {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #banner-section .col-2 figure {
+    text-align: center;
+  }
+  #banner-section .col-2 img {
+    width: 80%;
+    margin: auto;
+  }
+  /* Standard Curriculum section */
+  #curriculum-section .curriculum-wrapper {
+    flex-direction: column;
+  }
+  #curriculum-section .curriculum-slider-nav {
+    display: none;
+  }
+  /* our stories section */
+  #our-stories-section .story-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #our-stories-section .story-container .story.featured {
+    display: none;
+  }
+
+  /* footer section  */
+  #footer .row {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  #footer .col-1 {
+    margin-right: 0;
+  }
+  #footer .col-1 img {
+    width: 180px;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  header .mobile-menu {
+    width: 80%;
+    padding: 15px;
+  }
+  header .mobile-menu .mobile-logo img {
+    width: 140px;
+  }
+  header .mobile-menu .btn {
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+  }
+  /* our stories section */
+  #our-stories-section .story-container {
+    grid-template-columns: 1fr;
+  }
+}

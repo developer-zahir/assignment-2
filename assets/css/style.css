@@ -1,32 +1,36 @@
 /* header  */
-header .row {
+header .desktop-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 95px;
+  padding: 0 20px;
 }
-header nav ul {
+header .desktop-header nav ul {
   display: flex;
   gap: 40px;
 }
-header ul a {
+header .desktop-header .desktop-logo img {
+  width: 170px;
+}
+header .desktop-header ul a {
   color: var(--black);
   text-decoration: none;
   font-weight: 500 !important;
 }
-header ul a:hover {
+header .desktop-header ul a:hover {
   text-decoration: underline;
 }
-header ul li:nth-child(1) a {
+header .desktop-header ul li:nth-child(1) a {
   color: var(--primary);
 }
-header ul li:nth-child(2) a {
+header .desktop-header ul li:nth-child(2) a {
   color: var(--secondary);
 }
-header ul li:nth-child(3) a {
+header .desktop-header ul li:nth-child(3) a {
   color: var(--color-4);
 }
-header ul li:nth-child(4) a {
+header .desktop-header ul li:nth-child(4) a {
   color: var(--color-5);
 }
 
@@ -36,7 +40,7 @@ header ul li:nth-child(4) a {
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  padding: 40px 0;
+  padding: 40px 20px;
 }
 
 #banner-section .row > div {
