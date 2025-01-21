@@ -58,6 +58,15 @@ header .desktop-header ul li:nth-child(4) a {
   text-align: right;
 }
 
+/* Marque section  */
+#marque-section marquee {
+  background: linear-gradient(30deg, var(--primary) 50%, var(--secondary) 50%);
+
+  color: var(--white);
+  padding: 15px;
+  margin-top: 50px;
+}
+
 /* curriculum section  */
 #curriculum-section {
   background: url("../images/bg.png") top center / contain no-repeat;
